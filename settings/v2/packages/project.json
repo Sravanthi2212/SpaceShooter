@@ -7,5 +7,32 @@
       "width": 540,
       "fitHeight": true
     }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "asteroid"
+      },
+      {
+        "index": 2,
+        "name": "shot"
+      },
+      {
+        "index": 3,
+        "name": "fall"
+      },
+      {
+        "index": 4,
+        "name": "rocket"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 20,
+      "2": 2,
+      "3": 16,
+      "4": 10
+    }
   }
 }
